@@ -1,6 +1,6 @@
 package event.launchcode.hellopage.model.data;
 
-import event.launchcode.hellopage.controller.User;
+import event.launchcode.hellopage.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

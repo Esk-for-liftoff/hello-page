@@ -2,7 +2,6 @@ package event.launchcode.hellopage;
 
 
 import event.launchcode.hellopage.controller.AuthenticationController;
-import event.launchcode.hellopage.controller.User;
 import event.launchcode.hellopage.model.data.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

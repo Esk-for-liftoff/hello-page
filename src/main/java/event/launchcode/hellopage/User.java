@@ -1,4 +1,4 @@
-package event.launchcode.hellopage.controller;
+package event.launchcode.hellopage;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import javax.persistence.Entity;

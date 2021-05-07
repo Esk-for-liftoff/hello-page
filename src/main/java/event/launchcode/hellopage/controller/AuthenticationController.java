@@ -1,5 +1,6 @@
 package event.launchcode.hellopage.controller;
 
+import event.launchcode.hellopage.User;
 import event.launchcode.hellopage.model.data.UserRepository;
 import event.launchcode.hellopage.model.dto.LoginFormDTO;
 import event.launchcode.hellopage.model.dto.RegisterFormDTO;
