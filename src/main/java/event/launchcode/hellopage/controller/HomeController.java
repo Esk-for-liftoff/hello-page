@@ -13,9 +13,9 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("women")
+    @GetMapping("templates/women")
     public String displayAddJobForm(Model model) {
-        model.addAttribute("women","women");
+        model.addAttribute("templates/women", "templates/women");
         return "customer/women";
     }
 
