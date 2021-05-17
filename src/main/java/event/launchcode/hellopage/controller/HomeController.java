@@ -13,10 +13,10 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("store")
+    @GetMapping("women")
     public String displayAddJobForm(Model model) {
-        model.addAttribute("store","store");
-        return "store";
+        model.addAttribute("women","women");
+        return "customer/women";
     }
 
 }
