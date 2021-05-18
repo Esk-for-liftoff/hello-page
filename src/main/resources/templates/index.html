@@ -9,12 +9,40 @@
 <header class="main-header">
  <nav class="nav main-nav">
   <ul>
-   <li>Gedera Market</li>>
-   <li><a href="index.html">All</a></li>
-   <li><a href="women.html">Women</a></li>
-   <li><a href="men.html">Men</a></li>
-   <li><a href="kids.html">Kids</a></li>
-   <li><a href="luggage.html">Luggage</a>
+   <li>Gedera Market</li>
+     <li class="form-group">
+       <select id="womenItems"  onchange="javascript:handleSelect(this)">
+       <option>Women Items</option>>
+       <option value="blouse">Blouse</option>
+       <option value="underwear">Underwear</option>
+       <option value="cosmetics">Cosmetics</option>
+       <option value="purse">Purse</option>
+      </select>
+      <select id="menItems" onchange="javascript:handleSelect(this)">
+       <option>men Items</option>>
+       <option value="hats">Hats</option>
+       <option value="pants">Pants</option>
+       <option value="shoes">Shoes</option>
+       <option value="t-shirt">T-Shirt</option>
+      </select>
+
+       <select id="kidsItems"  onchange="javascript:handleSelect(this)">
+       <option>kids Items</option>>
+       <option value="game">Games</option>
+       <option value="t-shirt">T-Shirt</option>
+       <option value="cosmetics">Cosmetics</option>
+       <option value="hat">Hats</option>
+      </select>
+
+      <div class="dropdown">
+       <button class="dropbtn">Luggage</button>
+       <div class="dropdown-content">
+        <a href="caryons">Caryons</a>
+        <a href="#">Pack bags</a>
+        <a href="#">Keys</a>
+       </div>
+      </div>
+    </li>
 
  </ul>
  </nav>
@@ -49,5 +77,11 @@
   </ul>
  </div>
 </footer>
+<script type="text/javascript">
+      function handleSelect(items)
+      {
+      window.location = items.value
+      }
+      </script>
 </body>
 </html>
